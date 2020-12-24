@@ -17,7 +17,8 @@
     "lint": "npx eslint ./src/**",
     "test": "npx jest --onlyChanged --runInBand",
     "test:full": "npx jest --runInBand",
-    "serve": "npx static ."
+    "serve": "npx static .",
+    "prepublishOnly": "npm run lint && npm run test:full && npm run build"
   },
   "author": "pldespaigne",
   "license": "MIT",
