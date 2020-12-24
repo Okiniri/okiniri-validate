@@ -1,14 +1,14 @@
 {
   "name": "@okiniri/validate",
   "private": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Hold types validation functions for Okiniri API inputs and outputs",
   "main": "./dist/node/index.js",
   "browser": "./dist/node/index.js",
   "types": "./dist/types/index.d.ts",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Okiniri/okiniri-validate"
+    "type": "git",
+    "url": "https://github.com/Okiniri/okiniri-validate"
   },
   "scripts": {
     "build": "npm run build:node && npm run build:browser",
