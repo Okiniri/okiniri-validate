@@ -1,5 +1,5 @@
 {
-  "name": "@okiniri/sdk",
+  "name": "@okiniri/validate",
   "private": false,
   "version": "0.0.1",
   "description": "Hold types validation functions for Okiniri API inputs and outputs",
